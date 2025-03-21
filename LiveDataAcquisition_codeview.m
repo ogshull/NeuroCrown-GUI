@@ -64,8 +64,7 @@ classdef LiveDataAcquisition < matlab.apps.AppBase
     % 2018/02/09 version 1.0 Andrei Ursache
     % 2019/01/07 version 1.2, AU, Added IEPE measurement type
     % 2020/01/16 version 1.3, AU, updated DAQ code from Session to DataAcquisition interface
-
-    % 2024/08/13 version 2.0, GS, added nidaqmx funcitonality
+    % 2024/08/13 version 2.0, GS, added nidaqmx funcitonality, real time recording, + NeuroCrown features
     
     
     properties (Access = private)
